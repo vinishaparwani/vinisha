@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_dashboard"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/dashboard_bg"
+    tools:context="com.example.b.bookstore.Dashboard">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e6030303">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:weightSum="3">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RelativeLayout
+
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
+
+                    <TextView
+                        android:id="@+id/textviewscience"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|bottom"
+                        android:padding="16dp"
+                        android:text="Science "
+                        android:textColor="#fff"
+                        android:textSize="18dp" />
+
+                    <Button
+                        android:id="@+id/btnscience"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/science_icon"
+                        android:backgroundTint="#fff"
+                        android:padding="16dp" />
+
+                    <TextView
+                        android:id="@+id/tvscience"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:text=""
+                        android:textSize="1dp" />
+
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|bottom"
+                        android:padding="16dp"
+                        android:text="Math"
+                        android:textColor="#fff"
+                        android:textSize="18dp" />
+
+                    <Button
+                        android:id="@+id/btnmath"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/math_icon"
+                        android:backgroundTint="#fff"
+                        android:padding="16dp" />
+
+                    <TextView
+                        android:id="@+id/tvmath"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:text=""
+                        android:textSize="1dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true">
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|bottom"
+                        android:padding="16dp"
+                        android:text="Comic"
+                        android:textColor="#fff"
+                        android:textSize="18dp" />
+
+                    <Button
+                        android:id="@+id/btncomic"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/comin_icon"
+                        android:backgroundTint="#fff"
+                        android:padding="16dp" />
+
+                    <TextView
+                        android:id="@+id/tvcomic"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:text=""
+                        android:textSize="1dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|bottom"
+                        android:padding="16dp"
+                        android:text="Health"
+                        android:textColor="#fff"
+                        android:textSize="18dp" />
+
+                    <Button
+                        android:id="@+id/btnhealth"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/health_icon"
+                        android:backgroundTint="#fff"
+                        android:padding="16dp" />
+
+                    <TextView
+                        android:id="@+id/tvhealth"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:text=""
+                        android:textSize="1dp" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="horizontal"
+                android:weightSum="2">
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|bottom"
+                        android:padding="16dp"
+                        android:text="Travel"
+                        android:textColor="#fff"
+                        android:textSize="18dp" />
+
+                    <Button
+                        android:id="@+id/btntravel"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/travel_icon"
+                        android:backgroundTint="#fff"
+                        android:padding="16dp" />
+
+                    <TextView
+                        android:id="@+id/tvtravel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:text=""
+                        android:textSize="1dp" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:clickable="true">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:gravity="center|bottom"
+                        android:padding="16dp"
+                        android:text="Horror"
+                        android:textColor="#fff"
+                        android:textSize="18dp" />
+
+                    <Button
+                        android:id="@+id/btnhorror"
+                        android:layout_width="85dp"
+                        android:layout_height="85dp"
+                        android:layout_centerInParent="true"
+                        android:background="@drawable/ghost_icon"
+                        android:backgroundTint="#fff"
+                        android:padding="16dp" />
+
+                    <TextView
+                        android:id="@+id/tvhorror"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentBottom="true"
+                        android:text=""
+                        android:textSize="1dp" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+</RelativeLayout>

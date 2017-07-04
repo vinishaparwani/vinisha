@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/main_screen_cover">
+
+        <TextView
+            android:id="@+id/tvwel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="75dp"
+            android:fontFamily="sans-serif"
+            android:text="WELCOME"
+            android:textColor="#fffffd"
+            android:textSize="60dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvhope"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tvwel"
+            android:layout_centerInParent="true"
+            android:fontFamily="sans-serif"
+            android:text="We hope you enjoy\n\t\t\t\t\t\t\tthe stay!"
+            android:textColor="#fffffd"
+            android:textSize="28dp" />
+
+        <TextView
+            android:id="@+id/line"
+            android:layout_width="50dp"
+            android:layout_height="4dp"
+            android:layout_below="@id/tvhope"
+            android:layout_centerInParent="true"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="14dp"
+            android:background="#fcf9f9" />
+
+        <EditText
+            android:id="@+id/user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/line"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="30dp"
+            android:hint="someone@example.com"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <EditText
+            android:id="@+id/pass"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/user"
+            android:layout_centerInParent="true"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:layout_marginTop="15dp"
+            android:hint="Enter password"
+            android:textAlignment="center"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/pass"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_bg"
+            android:id="@+id/buttonLogin"
+            android:src="@drawable/login_button_icon" />
+
+
+    </RelativeLayout>
+
+</LinearLayout>
